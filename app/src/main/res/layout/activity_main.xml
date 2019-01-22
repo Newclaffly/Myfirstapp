@@ -11,11 +11,13 @@
             android:id="@+id/textView1"
             android:background="#2fc792"
     />
-    <TextView android:layout_width="100dp"
-              android:layout_height="100dp"
+    <TextView android:layout_width="match_parent"
+              android:layout_height="match_parent"
               android:text="Hellow 2"
               android:id="@+id/textview2"
               android:background="#2d00f5"
+              android:layout_margin="20dp"
+              android:padding="20dp"
     />
 
 </LinearLayout>
